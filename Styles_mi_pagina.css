@@ -1,0 +1,116 @@
+
+/* estilo del encabezado y menu*/
+ol,
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    }
+
+header{
+    background-color: rgba(80, 80, 78, 0.85);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+
+header a i{
+    color: rgb(164, 162, 162);
+    font-size: 1em;
+    padding: 0.5em;
+    
+       
+}
+
+header nav ul {
+display: flex;
+gap: 1.0em;
+
+}
+
+header nav ul li a {
+    color: white
+   
+}
+
+
+
+
+
+/* estilo del cuerpo */
+body{
+    background-color: black
+    margin: 0;
+    padding: 0;
+    font-family:  Roboto, sans-serif;
+  
+}
+
+
+.seccion-1 {
+    background-color:  rgb(247, 115, 115);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em;
+    margin: 4em;
+
+ 
+}
+
+/* estilo de parrafos */
+.fuente-acento
+ {
+font-family: 'Lucida Sans';
+font-size: 20px;
+}
+
+.parrafo1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+.parrafo2{
+
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+}
+  
+  
+
+.seccion-2 img{
+width: 100%;
+}
+
+
+	
+
+
+
+#footer   a i fa-solid fa-laptop-mobile {
+    div {
+        background-color: black;
+    }
+
+    
+    position: fixed;
+    bottom: 22px;
+    right: 39px;
+    color:  white;
+    font-size: 1em;
+    padding: 0.5em;
+
+    /* font-size: 20;
+    font-family: 'Lucida Sans';
+    align-items: center;
+    display:  block;*/
+ }
+ .pie-sitio {
+    font-size: 40px;
+ }
+ .Fuente-noticia {
+    font-family: 'Courier New';
+
+ }

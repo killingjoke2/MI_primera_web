@@ -1,0 +1,21 @@
+div {
+    background-color: red;
+    width: 17em;
+    height: 12em;
+      display: block;
+      /*display: inline;*/
+}
+
+p {
+    background-color: blue;
+    width: 17em;
+    height: 12em;
+    display: block;
+}
+
+a {
+    background-color: aquamarine;
+    width: 17em;
+    height: 12em;
+    display:inline-block;
+}
